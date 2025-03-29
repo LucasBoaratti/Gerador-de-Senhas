@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gerador de senhas</title>
+        <link rel="stylesheet" href="./styleIndex.css">
+        <script src="./Gerador.js"></script>
+        <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/5321/5321806.png" type="image/x-icon">
+    </head>
+    <body>
+        <!-- Adicionando a tag main para o conteúdo principal  -->
+        <main class="main">
+            <!-- Criando a classe container para uma melhor visualização em telas menores -->
+            <div class="container">
+                <!-- Criando a classe de gerador de senhas -->
+                <div class="gerador">
+                    <h1>Gerador de senhas</h1>
+                    <label for="senhas">Gere sua senha e não mostre pra ninguém!</label> <br>
+                    <input type="text" name="senhas" id="senha" readonly> <br>
+                    <p id="aviso"></p>
+                    <!-- Criando a div do botão para centralizá-lo no conteúdo da página -->
+                    <div class="botao">
+                        <button type="button" onclick="gerarSenha()">Gerar senha</button>
+                        <button type="button" onclick="copiarSenha()">Copiar senha</button>
+                    </div>                   
+                </div>
+            </div>
+        </main>   
+    </body>
+</html>

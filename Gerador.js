@@ -1,25 +1,29 @@
-function gerarSenha() { //Função para gerar a senha
-    let caracteres = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()"; //Adicionando todos os caracteres possíveis para uma senha
-    let tamanho = 15; //Você pode mudar o tamanho da senha, se quiser
-    let gerarSenha = ""; //Variável vazia para colocar a senha gerada aleatoriamente
+function gerarSenha() { 
+    // Variável de caracteres, tamanho da senha e geradora das senhas
+    let caracteres = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()"; 
+    let tamanho = 15; 
+    let gerarSenha = ""; 
 
-    for (let i = 0; i < tamanho; i++) { //Laço de repetição que percorre e adiciona os caracteres da senha
-        let numeroAleatorio = Math.floor(Math.random() * caracteres.length); //Gerando um índice aleatório dentro do tamanho da varíavel caracteres
+    // Laço de repetição para montar a senha
+    for (let i = 0; i < tamanho; i++) { 
+        // Gerador de caracteres aleatórios
+        let caracteresAleatorios = Math.floor(Math.random() * caracteres.length);
 
-        gerarSenha += caracteres[numeroAleatorio]; //Gerando os caracteres
+        gerarSenha += caracteres[caracteresAleatorios]; 
 
-        document.getElementById("senha").value = gerarSenha; //Exibindo os caracteres no campo de senha
+        document.getElementById("senha").value = gerarSenha; 
     }
 }
 
-function copiarSenha() { //Função para copiar a senha gerada
-    let copiar = document.getElementById("senha"); //Pegando o ID do campo de senha
+// Função para copiar a senha
+function copiarSenha() { 
+    let copiar = document.getElementById("senha"); 
 
-    copiar.select(); //Selecionando a senha gerada
+    copiar.select(); 
 
-    copiar.setSelectionRange(0, 1000); //Selecionando o range de cópia do input
+    copiar.setSelectionRange(0, 15); 
 
-    document.execCommand("copy"); //Executando o comando de copiar
+    document.execCommand("copy"); 
 
-    document.getElementById("aviso").textContent = "Senha copiada com sucesso!"; //Exibindo uma mensagem de aviso
+    document.getElementById("aviso").textContent = "Senha copiada com sucesso!";
 }

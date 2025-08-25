@@ -28,7 +28,7 @@ code .
 
 OBS: Certifique que você já tenha instalado o Live Server no VSCode. Se não estiver instalado, digite Live Server nas extensões e instale. (Para acessar as extensões, faça o comando: CTRL + SHIFT + X).
 
-E pronto, agora é só ir no navegador e gerar sua senha :D
+#### E pronto, agora é só ir no navegador e gerar sua senha :D
 
 # 💻 Linguagens utilizadas 💻
 

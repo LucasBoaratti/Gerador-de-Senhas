@@ -1,8 +1,8 @@
-# Gerador-de-Senhas
+# 🔑 Gerador-de-Senhas 🔑
 
 #### Gerador de senhas desenvolvido em FrontEnd, com objetivo de gerar senhas seguras para você utilizar em suas contas. Perfeito para quando faltar criatividade em criar uma.
 
-# Como usar o gerador
+# 🗝 Como usar o gerador 🗝
 
 1. Clique no botão Code e copia a URL do projeto:
 
@@ -30,7 +30,7 @@ OBS: Certifique que você já tenha instalado o Live Server no VSCode. Se não e
 
 E pronto, agora é só ir no navegador e gerar sua senha :D
 
-# Linguagens utilizadas
+# 💻 Linguagens utilizadas 💻
 
 ## FrontEnd
 

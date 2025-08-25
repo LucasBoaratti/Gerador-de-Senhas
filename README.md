@@ -7,7 +7,7 @@
 1. Clique no botão Code e copia a URL do projeto:
 
 ```bash
-https://github.com/nome_usuario/projeto.git
+https://github.com/LucasBoaratti/Gerador-de-Senhas.git
 ```
 
 2. Abra o Prompt de comando (ou PowerShell ou GitBash) em sua área de trabalho ou em documentos e realize o seguinte comando:
@@ -15,16 +15,22 @@ https://github.com/nome_usuario/projeto.git
 OBS: Certifique que o Git está instalado no seu computador. Caso não esteja, instale aqui: [Git](https://git-scm.com/downloads)
 
 ```bash 
-git clone https://github.com/nome_usuario/projeto.git
+git clone https://github.com/LucasBoaratti/Gerador-de-Senhas.git
 ```
 
-3. Agora, entre no VSCode:
+3. Acesse a pasta do projeto:
+
+```bash
+cd .\nome_projeto
+```
+
+4. Agora, entre no VSCode:
 
 ```bash
 code .
 ```
 
-4. Após entrar, vá até o arquivo Index.html e clique com o botão direito e clique em Open With Live Server. 
+5. Após entrar, vá até o arquivo Index.html e clique com o botão direito e clique em Open With Live Server. 
 
 OBS: Certifique que você já tenha instalado o Live Server no VSCode. Se não estiver instalado, digite Live Server nas extensões e instale. (Para acessar as extensões, faça o comando: CTRL + SHIFT + X).
 
